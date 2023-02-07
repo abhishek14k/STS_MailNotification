@@ -18,6 +18,6 @@ public class SpringbootEmailApplication {
 	
 	@EventListener(ApplicationReadyEvent.class)
 	public void sendMail() {
-		senderService.sendEmail("carnage.14k@gmail.com", "TEST EMAIL SUBJECT", "TEST EMAIL BODY");
+		senderService.sendEmail("To_User_Email@gmail.com", "TEST EMAIL SUBJECT", "TEST EMAIL BODY");
 	}
 }
